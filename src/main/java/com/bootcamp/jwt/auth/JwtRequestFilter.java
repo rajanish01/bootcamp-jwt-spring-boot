@@ -1,5 +1,6 @@
 package com.bootcamp.jwt.auth;
 
+import com.bootcamp.jwt.rest.service.JwtUserDetailsService;
 import io.jsonwebtoken.ExpiredJwtException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
